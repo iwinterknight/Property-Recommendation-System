@@ -1,0 +1,2131 @@
+{
+  "entities": {
+    "listingDesc": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "snips/amountOfMoney": {},
+    "snips/city": {},
+    "snips/date": {},
+    "snips/datePeriod": {},
+    "snips/datetime": {},
+    "snips/number": {},
+    "snips/region": {},
+    "snips/timePeriod": {}
+  },
+  "intents": {
+    "findApartmentBedBathCityPrice": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "find apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "give me some houses in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "miami"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "florida"
+            },
+            {
+              "text": " please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you find some rentals in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Look for houses in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": " please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find apartments around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "la"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am looking for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am looking for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment on "
+            },
+            {
+              "entity": "listingDesc",
+              "slot_name": "listingDesc",
+              "text": "6026 North Fulton Street"
+            },
+            {
+              "text": "  in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find me a  "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "3 bathroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedrooms"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " house for about 700k dollars in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "denver"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " house for about 700k dollars in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Boulder"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedrooms"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathrooms"
+            },
+            {
+              "text": " house for about 700k dollars in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Boulder"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find me a  "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "3 bathroom"
+            },
+            {
+              "text": " apartment around "
+            },
+            {
+              "entity": "listingDesc",
+              "slot_name": "listingDesc",
+              "text": "4870 Eisenhower Avenue"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "1 bath"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            },
+            {
+              "text": " near "
+            },
+            {
+              "entity": "listingDesc",
+              "slot_name": "listingDesc",
+              "text": "12017 Evening Ride Drive"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2.5 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "1.5 bathroom"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "seattle"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Washington"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm looking for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " houses to rent in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san fransisco"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm looking for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "listingDesc",
+              "slot_name": "listingDesc",
+              "text": "259 Beckenham Circle, Unit 402"
+            },
+            {
+              "text": " to rent in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san fransisco"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bed"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "miami"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bhk"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4bed"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bhk"
+            },
+            {
+              "text": " apartments around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you help me find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Georgia"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to consult about "
+            },
+            {
+              "entity": "listingDesc",
+              "slot_name": "listingDesc",
+              "text": "2 Prairie Rose Court, Unit 111"
+            },
+            {
+              "text": ". When can we discuss"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm searching for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            },
+            {
+              "text": " for about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$300,000"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please help me find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bhk"
+            },
+            {
+              "text": " houses in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": " listed at "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$450k"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please help me find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bhk"
+            },
+            {
+              "text": " houses like "
+            },
+            {
+              "entity": "listingDesc",
+              "slot_name": "listingDesc",
+              "text": "24233 Newbury Road"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": " listed at "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$450k"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$750000"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "750000 dollars"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm looking for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " houses to rent in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san fransisco"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "650000dollars"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me apartments for around "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "250k dollars"
+            },
+            {
+              "text": " around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "seattle"
+            },
+            {
+              "text": " area"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me apartments for around "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "2500000 dollars"
+            },
+            {
+              "text": " around "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "New Jersey"
+            },
+            {
+              "text": " neighborhoods"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I\u2019m interested in touring "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow Tuesday, April 6th"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/timePeriod",
+              "slot_name": "timeperiod",
+              "text": "anytime after 3:30 PM"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Please let me know if there\u2019s a convenient time and If not what times are available."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I currently rent nearby, but am interested in buying, and this property (2013 Kalorama Rd NW APT 8, Washington, DC 20009) seems to meet a lot of my criteria."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'd be keen to visit in person if possible, ideally "
+            },
+            {
+              "entity": "snips/datePeriod",
+              "slot_name": "dateperiod",
+              "text": "one evening this week"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Is the condo available for a walkthrough at some point "
+            },
+            {
+              "entity": "snips/datePeriod",
+              "slot_name": "dateperiod",
+              "text": "in the next two days"
+            },
+            {
+              "text": "? Please call me at 540-422-5924"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I would like more information about 2820 Cook Street and to set up a showing for "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "Thursday"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "entity": "snips/date",
+              "slot_name": "date",
+              "text": "Friday"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/timePeriod",
+              "slot_name": "timeperiod",
+              "text": "after 3pm"
+            },
+            {
+              "text": ", or "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Saturday afternoon"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I would like more information about 0 West Canal Street.can i see it "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "tomorrow monday 19 april"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am looking for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find me a  "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "3 bathroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "1 bath"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2.5 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "1.5 bathroom"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "seattle"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Washington"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm looking for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " houses to rent in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san fransisco"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bed"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "miami"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Florida"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bhk"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4bed"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bhk"
+            },
+            {
+              "text": " apartments around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am looking for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bed"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "miami"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Florida"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bhk"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4bed"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bhk"
+            },
+            {
+              "text": " apartments around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you help me find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you help me find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Georgia"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm searching for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            },
+            {
+              "text": " for about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$300,000"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please help me find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bhk"
+            },
+            {
+              "text": " houses in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": " listed at "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$450k"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$750000"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "750000 dollars"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm looking for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " houses to rent in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san fransisco"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "650000dollars"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me apartments for around "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "250k dollars"
+            },
+            {
+              "text": " around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "seattle"
+            },
+            {
+              "text": " area"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me apartments for around "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "2500000 dollars"
+            },
+            {
+              "text": " around "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "New Jersey"
+            },
+            {
+              "text": " neighborhoods"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm searching for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            },
+            {
+              "text": " for about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$300,000"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "please help me find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bhk"
+            },
+            {
+              "text": " houses in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Georgia"
+            },
+            {
+              "text": " listed at "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$450k"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            },
+            {
+              "text": " costing about "
+            },
+            {
+              "entity": "snips/amountOfMoney",
+              "slot_name": "apartmentPrice",
+              "text": "$750000"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am looking for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "new york"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedrooms"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " house for about 700k dollars in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "denver"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " house for about 700k dollars in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Boulder"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "i want a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedrooms"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathrooms"
+            },
+            {
+              "text": " house for about 700k dollars in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Boulder"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find me a  "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "3 bathroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bed"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "1 bath"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "California"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " apartment around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san diego"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you show me "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2.5 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "1.5 bathroom"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "seattle"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Washington"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I'm looking for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "2 bedroom"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBathrooms",
+              "text": "2 bathroom"
+            },
+            {
+              "text": " houses to rent in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "san fransisco"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "3 bed"
+            },
+            {
+              "text": " house in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "miami"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Florida"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Search for "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "1 bhk"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4bed"
+            },
+            {
+              "text": " apartments in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "los angeles"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Find "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bhk"
+            },
+            {
+              "text": " apartments around "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/region",
+              "slot_name": "region",
+              "text": "Georgia"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Can you help me find a "
+            },
+            {
+              "entity": "snips/number",
+              "slot_name": "numBedrooms",
+              "text": "4 bedroom"
+            },
+            {
+              "text": " apartment in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "atlanta"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

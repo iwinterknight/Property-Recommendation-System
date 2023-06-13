@@ -1,0 +1,406 @@
+	index	bedrooms	bathrooms	longitude	latitude	house_age	sea_proximity	schools_rating	house_flooring	area	house_public_transport	neighborhood_features	price
+0	351	2	2	-117.07	33.13	3	<1H OCEAN	4	hardwood	2910	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12092500
+1	30	5	4.5	-121.94	37.31	6	<1H OCEAN	3	hardwood	2980	Subway	Swimming Pool, Recreational Center	6518000
+2	223	3	2	-118.02	33.95	7	<1H OCEAN	2	hardwood	4120	Subway		1723000
+3	279	4	4	-118.21	34.09	7	<1H OCEAN	3	hardwood	4350	Subway	Parks, Gym, Swimming Pool, Activity Center, Sauna Center	7807500
+4	226	3	2	-118.83	35.27	6	INLAND	1	linoleum	2340	Subway	Parks, Diners, Gym, Swimming Pool, Sauna Center, Recreational Center	9306000
+5	325	4	2.5	-118.33	33.86	7	<1H OCEAN	1	linoleum	2380	Subway	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12128900
+6	95	3	2	-115.57	32.85	6	INLAND	1	hardwood	4170	Subway	Gym	1593500
+7	67	3	2.5	-118.27	34.07	8	<1H OCEAN	4	linoleum	2600	Subway	Recreational Center	4319500
+8	146	3	2.5	-118.08	34.12	5	<1H OCEAN	4	linoleum	2860	Bus Stop	Cafes, Gym, Swimming Pool, Recreational Center	7242900
+9	31	5	3	-122.27	37.77	10	NEAR BAY	3	linoleum	2280	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15803000
+10	472	2	2	-118.89	34.28	6	<1H OCEAN	2	linoleum	4370	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11193500
+11	49	4	3	-120.08	36.79	7	INLAND	1	linoleum	3880	Subway	Parks, Diners, Cafes, Gym, Activity Center	4383000
+12	111	4	3	-119.19	34.46	7	<1H OCEAN	1	hardwood	3960	Bus Stop	Cafes, Sauna Center	4267000
+13	384	2	2	-118.04	33.97	5	<1H OCEAN	4	linoleum	3450	Bus Stop	Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11540400
+14	150	4	4.5	-121.92	36.55	10	NEAR OCEAN	3	linoleum	3930	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	13691500
+15	182	3	2.5	-122.03	37.86	5	NEAR BAY	1	vinyl	2880	Subway	Parks, Diners, Gym, Activity Center, Sauna Center, Shopping Mall	10404000
+16	233	5	4	-122.45	37.77	10	NEAR BAY	1	vinyl	3060	Bus Stop	Cafes, Sauna Center, Shopping Mall	8138900
+17	396	3	2	-121.89	38.02	7	INLAND	1	linoleum	4160	Subway	Parks, Cafes, Gym, Swimming Pool, Recreational Center, Shopping Mall	12873000
+18	127	4	2.5	-122.27	37.86	10	NEAR BAY	5	hardwood	3240	Subway	Gym, Swimming Pool	4001000
+19	301	6	3.5	-121.44	36.51	6	<1H OCEAN	5	vinyl	4290	Bus Stop	Parks, Gym, Activity Center, Sauna Center, Recreational Center	9961500
+20	198	3	2.5	-120.35	38.04	3	INLAND	1	hardwood	4200	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12635000
+21	181	2	1.5	-117.38	33.67	1	<1H OCEAN	1	vinyl	4110	Bus Stop	Parks, Cafes, Gym, Sauna Center, Recreational Center	7990500
+22	256	3	2.5	-117.98	33.86	5	<1H OCEAN	1	vinyl	2670	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13683500
+23	486	6	5.5	-121.91	37.44	5	<1H OCEAN	2	hardwood	2440	Bus Stop	Diners, Cafes, Gym, Swimming Pool	5622000
+24	46	3	3	-122.23	37.78	8	NEAR BAY	2	linoleum	3940	Subway	Cafes, Gym, Shopping Mall	6492000
+25	449	2	1	-119.12	34.23	7	NEAR OCEAN	4	linoleum	4020	Subway	Swimming Pool, Recreational Center	5941000
+26	114	4	3	-123.12	40.54	4	INLAND	1	hardwood	3040	Subway	Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13171900
+27	62	5	3.5	-121.91	37.31	5	<1H OCEAN	4	hardwood	4740	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15807000
+28	254	2	3	-119.1	36.4	4	INLAND	3	vinyl	2060	Bus Stop	Swimming Pool, Sauna Center, Shopping Mall	9003000
+29	156	3	2	-118.4	33.88	8	<1H OCEAN	2	vinyl	4730	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15164500
+30	322	3	2	-118.29	33.8	4	<1H OCEAN	1	hardwood	2800	Subway	Sauna Center	3350000
+31	283	5	4	-122.31	37.52	4	NEAR OCEAN	2	hardwood	4040	Bus Stop	Parks, Diners, Swimming Pool, Activity Center, Sauna Center	7077000
+32	345	2	2	-115.56	32.78	5	INLAND	5	vinyl	4760	Bus Stop	Diners, Activity Center	3137900
+33	230	5	5	-121.9	36.6	6	NEAR OCEAN	4	vinyl	2520	Subway	Cafes, Activity Center, Shopping Mall	7895000
+34	217	5	4.5	-119.09	35.43	5	INLAND	1	hardwood	4270	Subway	Parks, Diners, Cafes, Gym, Sauna Center	8683500
+35	115	3	2	-117.96	33.67	3	<1H OCEAN	3	vinyl	2870	Subway		1193400
+36	487	2	2	-122.45	38.58	6	INLAND	4	hardwood	3880	Subway	Parks, Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13089000
+37	242	4	3	-122.5	37.77	10	NEAR BAY	5	vinyl	3420	Subway	Parks, Diners, Cafes, Gym, Activity Center, Recreational Center, Shopping Mall	12090999
+38	290	2	1	-117.48	34.08	5	INLAND	4	hardwood	3140	Subway		1013000
+39	141	3	2.5	-118.09	33.9	6	<1H OCEAN	5	vinyl	4620	Bus Stop	Diners, Cafes, Recreational Center	5679800
+40	23	3	3	-116.05	33.33	3	INLAND	1	hardwood	4510	Bus Stop	Diners, Cafes, Shopping Mall	6225400
+41	153	2	2	-122.38	40.69	4	INLAND	5	linoleum	2290	Bus Stop	Cafes, Sauna Center, Shopping Mall	7936500
+42	236	4	4	-119.83	36.76	3	INLAND	3	hardwood	4160	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15737000
+43	227	3	3.5	-121.62	36.67	6	<1H OCEAN	5	hardwood	2810	Bus Stop		3190500
+44	340	3	2	-121.99	36.99	5	NEAR OCEAN	3	linoleum	2700	Bus Stop	Parks, Gym, Activity Center, Recreational Center	6793888
+45	83	2	1	-123.8	39.46	7	<1H OCEAN	3	linoleum	2800	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15437500
+46	306	4	3	-118.2	33.9	5	<1H OCEAN	3	linoleum	3800	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15600000
+47	42	5	2	-115.57	32.78	5	INLAND	1	vinyl	3510	Bus Stop	Diners, Swimming Pool, Recreational Center	5864440
+48	298	5	3	-121.52	39.12	7	INLAND	3	vinyl	4960	Subway		1435000
+49	189	4	2.5	-118.28	34.03	5	<1H OCEAN	4	linoleum	2220	Bus Stop	Parks, Diners, Cafes, Activity Center, Sauna Center, Recreational Center, Shopping Mall	13886000
+50	410	3	2	-118.32	34.17	8	<1H OCEAN	4	linoleum	4080	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15393000
+51	430	3	2	-121.96	37.13	5	<1H OCEAN	4	vinyl	2210	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15529500
+52	280	4	3	-118.31	35.74	3	INLAND	3	vinyl	2430	Subway		1261400
+53	178	3	2	-117.89	33.72	5	<1H OCEAN	1	hardwood	2840	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15780000
+54	492	2	1	-118.08	33.76	5	<1H OCEAN	2	linoleum	3410	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11099500
+55	528	4	3.5	-122.14	37.47	7	NEAR BAY	4	linoleum	3220	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15531000
+56	440	3	2	-120.38	40.98	5	INLAND	3	hardwood	2740	Bus Stop	Parks, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14512000
+57	447	3	2	-118.04	33.86	4	<1H OCEAN	2	linoleum	4680	Subway		1333000
+58	343	3	2	-122.18	37.45	7	NEAR BAY	1	hardwood	2830	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Recreational Center, Shopping Mall	10781000
+59	401	2	2	-118.34	33.94	7	<1H OCEAN	5	linoleum	4580	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15397500
+60	58	3	2	-122.19	39.91	7	INLAND	5	linoleum	2240	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12462000
+61	1	4	4	-118.2	34.19	7	<1H OCEAN	4	vinyl	3060	Subway	Parks, Diners, Cafes, Gym, Recreational Center	6442500
+62	187	4	3.5	-117.96	33.7	4	<1H OCEAN	2	vinyl	2940	Subway	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16012000
+63	35	4	4	-118.29	33.74	5	NEAR OCEAN	5	vinyl	4290	Subway	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15833500
+64	291	2	2	-117.9	33.63	5	<1H OCEAN	5	linoleum	2250	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15327500
+65	329	3	4	-117.13	34.88	4	INLAND	5	hardwood	2760	Subway	Cafes, Recreational Center	5467000
+66	292	2	2	-118.27	33.96	7	<1H OCEAN	1	hardwood	3380	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15044000
+67	535	5	3	-117.09	33.12	2	<1H OCEAN	4	vinyl	2360	Subway		1453000
+68	203	3	3	-117.97	34.1	6	INLAND	5	vinyl	2350	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16105500
+69	16	4	4	-121.44	38.47	3	INLAND	4	hardwood	3910	Bus Stop	Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15495500
+70	255	1	1	-118.37	33.9	7	<1H OCEAN	5	linoleum	4640	Bus Stop	Parks, Diners, Activity Center, Shopping Mall	7485590
+71	126	6	6.5	-117.35	33.99	9	INLAND	1	linoleum	3190	Subway		4479500
+72	51	3	2	-118.44	35.13	6	INLAND	2	hardwood	3590	Subway	Shopping Mall	5064400
+73	77	3	2.5	-118.42	34.03	8	<1H OCEAN	1	vinyl	3080	Subway	Cafes, Swimming Pool	2499000
+74	309	3	2.5	-122.43	37.75	8	NEAR BAY	5	hardwood	3920	Subway	Parks, Diners, Cafes, Gym, Activity Center, Recreational Center, Shopping Mall	12116000
+75	506	3	2	-119.79	36.79	6	INLAND	3	hardwood	4210	Subway	Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center	10355500
+76	70	4	4.5	-122.12	37.38	6	NEAR BAY	5	linoleum	2490	Bus Stop	Swimming Pool	2564400
+77	69	4	1.5	-118.11	34.14	8	<1H OCEAN	4	vinyl	4900	Subway	Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11609500
+78	467	4	3	-118.27	33.99	8	<1H OCEAN	3	linoleum	2010	Subway	Parks, Diners, Cafes, Swimming Pool, Sauna Center	5685500
+79	183	3	1.5	-120.83	37.79	3	INLAND	5	hardwood	3300	Bus Stop	Diners, Cafes, Swimming Pool, Recreational Center, Shopping Mall	10814000
+80	241	5	5	-118.59	34.47	1	INLAND	4	hardwood	3760	Subway	Swimming Pool	2808000
+81	327	3	2	-121.85	36.61	7	<1H OCEAN	5	vinyl	4380	Bus Stop	Diners, Activity Center, Sauna Center	6039000
+82	216	4	3.5	-122.71	37.9	4	NEAR OCEAN	2	vinyl	2010	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16149500
+83	477	2	2	-119.12	36.54	6	INLAND	3	vinyl	4060	Bus Stop	Diners, Cafes, Activity Center, Recreational Center	7428000
+84	100	4	3.5	-117.27	32.84	5	NEAR OCEAN	5	hardwood	3100	Bus Stop	Recreational Center	4934000
+85	130	3	3	-115.54	32.99	4	INLAND	1	linoleum	3160	Bus Stop	Cafes	1743000
+86	248	5	3	-117.8	33.69	3	<1H OCEAN	2	vinyl	2060	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15387888
+87	494	6	4.5	-122.02	37.36	4	<1H OCEAN	2	hardwood	4290	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Sauna Center, Recreational Center	9173500
+88	376	2	1	-120.97	37.84	5	INLAND	2	linoleum	4680	Subway	Parks, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14121900
+89	132	3	2	-121.49	38.56	8	INLAND	2	hardwood	4590	Subway	Cafes, Swimming Pool, Sauna Center, Recreational Center	8669400
+90	437	3	2	-117.31	33.75	3	<1H OCEAN	4	vinyl	4680	Subway	Cafes, Activity Center	3513900
+91	469	3	3	-122.47	37.69	5	NEAR OCEAN	1	vinyl	2340	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Recreational Center	8156000
+92	334	2	2	-117.82	33.75	6	<1H OCEAN	2	linoleum	3220	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14258500
+93	238	5	3	-117.32	34.03	2	INLAND	1	vinyl	4830	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11431500
+94	138	1	1	-117.87	34.15	7	INLAND	3	hardwood	3550	Bus Stop	Parks, Diners, Gym, Sauna Center	4712500
+95	76	3	2	-120.89	37.54	6	INLAND	1	linoleum	4190	Bus Stop		844400
+96	262	4	3	-116.95	33.68	2	INLAND	1	hardwood	3740	Bus Stop	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center	9182000
+97	422	4	3	-118.46	33.77	5	NEAR OCEAN	5	vinyl	3550	Bus Stop	Parks, Gym, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	17985500
+98	65	4	2.5	-117.94	33.92	6	<1H OCEAN	3	hardwood	4430	Subway	Swimming Pool, Sauna Center, Recreational Center	8059500
+99	37	5	5.5	-121.94	37.31	1	<1H OCEAN	4	hardwood	3110	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15494500
+100	297	4	5	-117.78	33.68	2	<1H OCEAN	4	hardwood	2200	Bus Stop	Parks, Cafes, Gym, Shopping Mall	6790000
+101	26	4	4	-122.83	38.99	3	INLAND	5	linoleum	2280	Subway	Gym, Activity Center, Recreational Center	8074000
+102	276	6	4	-119.63	36.35	0	INLAND	5	hardwood	4700	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12874472
+103	490	3	2	-121.94	37.42	3	<1H OCEAN	4	linoleum	3640	Bus Stop	Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11907000
+104	395	2	2	-118.24	33.94	8	<1H OCEAN	5	linoleum	3910	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14625000
+105	10	4	5	-121.26	38.11	0	INLAND	2	linoleum	4520	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	14726000
+106	261	4	3	-117.49	33.93	5	INLAND	4	linoleum	4020	Bus Stop	Gym, Recreational Center	6101000
+107	142	3	2.5	-121.43	38.56	9	INLAND	4	hardwood	2460	Subway	Sauna Center	4288000
+108	105	3	3	-122.03	37.62	6	NEAR BAY	5	hardwood	2270	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15358500
+109	316	3	2	-118.16	34.01	8	<1H OCEAN	1	hardwood	3190	Subway	Parks, Diners, Activity Center	3214500
+110	533	3	2	-117.97	33.67	3	<1H OCEAN	2	linoleum	3550	Subway	Cafes, Gym, Swimming Pool, Activity Center, Sauna Center	7904500
+111	466	3	2	-122.25	37.8	8	NEAR BAY	5	hardwood	3040	Bus Stop		1351900
+112	234	6	4	-118.25	33.97	7	<1H OCEAN	3	vinyl	4460	Subway	Parks, Gym, Swimming Pool, Activity Center, Recreational Center	8528000
+113	330	3	2	-121.29	38.71	6	INLAND	3	hardwood	4110	Subway		1424500
+114	344	3	2	-118.28	34.06	3	<1H OCEAN	5	vinyl	4660	Subway	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14722900
+115	36	3	4.5	-118.16	33.79	5	NEAR OCEAN	5	hardwood	2170	Subway		2322500
+116	407	3	2	-118.55	34.24	4	<1H OCEAN	4	vinyl	2650	Subway	Parks, Diners, Cafes, Gym, Sauna Center, Shopping Mall	9027400
+117	123	5	3	-121.87	37.27	3	<1H OCEAN	3	vinyl	3710	Subway	Parks, Recreational Center, Shopping Mall	8904500
+118	312	3	2.5	-118.38	34.18	5	<1H OCEAN	2	hardwood	2890	Subway		1234500
+119	88	4	3.5	-121.4	36.84	10	INLAND	3	hardwood	2290	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15839500
+120	436	3	2	-117.66	35.63	6	INLAND	2	linoleum	2350	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15396500
+121	56	3	3	-117.04	32.69	5	NEAR OCEAN	5	vinyl	3460	Bus Stop		1508000
+122	364	2	2	-118.26	33.97	10	<1H OCEAN	2	vinyl	4960	Bus Stop	Swimming Pool	2112500
+123	408	3	2	-117.08	32.68	5	NEAR OCEAN	5	linoleum	2550	Subway	Diners, Sauna Center	3817400
+124	520	4	2	-122.22	37.79	7	NEAR BAY	1	hardwood	4230	Subway	Diners, Cafes, Gym, Activity Center, Shopping Mall	8491500
+125	208	5	4	-117.59	33.67	5	<1H OCEAN	4	linoleum	4210	Bus Stop	Parks, Swimming Pool, Activity Center, Sauna Center	7805500
+126	478	4	3.5	-122.26	37.83	10	NEAR BAY	1	vinyl	3020	Bus Stop	Parks, Activity Center	3296000
+127	389	2	1	-118.52	34.22	7	<1H OCEAN	5	hardwood	3660	Bus Stop	Swimming Pool, Sauna Center	4832900
+128	475	3	2	-122.04	37.31	4	<1H OCEAN	3	hardwood	4290	Bus Stop	Parks, Gym, Swimming Pool, Activity Center, Recreational Center	8639500
+129	415	2	2	-117.11	32.66	10	NEAR OCEAN	3	hardwood	3700	Bus Stop	Diners, Cafes, Activity Center, Sauna Center, Recreational Center, Shopping Mall	13129900
+130	493	4	3	-118.29	33.73	6	NEAR OCEAN	5	linoleum	4320	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Sauna Center, Recreational Center	10045500
+131	179	3	1.5	-118.13	34.17	10	<1H OCEAN	2	linoleum	3940	Bus Stop	Recreational Center	4696000
+132	284	4	3	-122.08	37.72	6	NEAR BAY	5	hardwood	3580	Subway	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Shopping Mall	11424000
+133	169	3	2.5	-121.96	37.31	6	<1H OCEAN	2	linoleum	2840	Bus Stop	Parks, Diners	2391000
+134	137	3	3.5	-117.23	34.12	1	INLAND	3	linoleum	2680	Subway	Activity Center, Sauna Center, Recreational Center	9653999
+135	176	1	1	-121.98	37.27	5	<1H OCEAN	3	vinyl	4960	Bus Stop	Parks, Cafes, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	11987000
+136	464	3	2	-118.59	34.21	6	<1H OCEAN	3	hardwood	2210	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15295500
+137	350	2	2	-122.28	37.87	10	NEAR BAY	2	hardwood	3420	Bus Stop	Diners	1075950
+138	432	3	2.5	-121.87	37.39	3	<1H OCEAN	3	linoleum	4090	Bus Stop	Diners	1623500
+139	268	5	3	-122.15	38.29	3	NEAR BAY	5	vinyl	4960	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15967990
+140	402	2	2	-122.92	41.7	4	INLAND	2	linoleum	4330	Subway	Parks, Recreational Center, Shopping Mall	8204000
+141	274	3	2.5	-118.0	34.08	5	INLAND	4	linoleum	3430	Bus Stop	Shopping Mall	5331500
+142	85	3	2.5	-117.82	33.68	0	<1H OCEAN	2	vinyl	2210	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Recreational Center	8869500
+143	263	2	2	-122.13	37.77	4	NEAR BAY	3	vinyl	2210	Bus Stop		1375400
+144	427	4	3.5	-119.57	36.44	6	INLAND	5	vinyl	3590	Subway	Recreational Center	4924500
+145	331	2	2	-121.97	37.3	6	<1H OCEAN	1	hardwood	4960	Subway	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14372900
+146	361	2	1	-118.13	33.87	9	<1H OCEAN	2	vinyl	3460	Bus Stop	Parks, Diners, Cafes, Gym, Sauna Center, Recreational Center, Shopping Mall	11936500
+147	328	4	2	-121.87	37.34	10	<1H OCEAN	3	hardwood	2070	Subway	Parks, Diners, Cafes, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	12857500
+148	414	2	2	-119.02	35.42	7	INLAND	4	vinyl	2860	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	12243000
+149	287	2	1.5	-121.88	38.01	1	INLAND	2	linoleum	3640	Subway	Parks	965000
+150	110	5	4.5	-122.14	37.43	10	NEAR BAY	4	hardwood	4720	Subway	Swimming Pool, Recreational Center	7005000
+151	74	3	2	-118.36	34.06	7	<1H OCEAN	3	vinyl	3100	Bus Stop		1104900
+152	218	3	2	-118.24	34.06	6	<1H OCEAN	2	hardwood	3020	Bus Stop		1350999
+153	73	4	3	-117.88	33.73	6	<1H OCEAN	5	hardwood	4120	Bus Stop	Parks, Cafes, Swimming Pool, Recreational Center, Shopping Mall	10250900
+154	167	4	2.5	-120.83	39.27	2	INLAND	3	linoleum	3790	Bus Stop		1539200
+155	302	5	5	-118.98	35.39	4	INLAND	1	vinyl	4120	Subway	Parks, Sauna Center	3668000
+156	517	4	2.5	-120.96	40.28	3	INLAND	1	vinyl	3740	Bus Stop		1055000
+157	219	4	2	-119.15	34.44	6	<1H OCEAN	1	hardwood	4060	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12702000
+158	433	4	2	-119.75	36.78	5	INLAND	4	vinyl	4750	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13917500
+159	388	2	2	-118.26	34.14	1	<1H OCEAN	2	linoleum	2650	Bus Stop	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	13752400
+160	386	2	2	-122.01	38.26	2	INLAND	3	vinyl	4620	Bus Stop	Parks, Diners, Cafes, Sauna Center	4065900
+161	526	5	3	-122.04	37.99	7	NEAR BAY	2	hardwood	3630	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15556500
+162	200	3	2.5	-117.95	33.88	6	<1H OCEAN	4	linoleum	2710	Bus Stop	Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14484500
+163	525	7	4	-117.13	34.07	6	INLAND	4	vinyl	4740	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Recreational Center, Shopping Mall	11506950
+164	44	3	2.5	-118.26	34.02	7	<1H OCEAN	2	linoleum	3750	Subway	Gym, Swimming Pool	3336300
+165	267	4	4	-121.52	38.49	1	INLAND	3	vinyl	4210	Subway	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16180500
+166	121	4	2	-121.35	38.58	4	INLAND	2	linoleum	3580	Subway	Parks, Diners, Gym, Swimming Pool, Sauna Center, Shopping Mall	10127000
+167	471	4	3.5	-117.8	33.85	4	<1H OCEAN	5	vinyl	2040	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15671000
+168	360	2	2	-121.72	38.8	7	INLAND	4	vinyl	3780	Subway	Parks, Diners, Activity Center, Sauna Center, Recreational Center, Shopping Mall	12756500
+169	84	4	2.5	-116.87	32.72	2	<1H OCEAN	5	vinyl	2390	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15689499
+170	398	2	3	-118.35	33.9	5	<1H OCEAN	5	linoleum	2760	Subway	Swimming Pool	2327900
+171	155	3	1	-117.84	34.63	1	INLAND	1	hardwood	4270	Bus Stop		883500
+172	66	4	3.5	-122.01	37.95	1	NEAR BAY	1	vinyl	4950	Bus Stop	Diners, Cafes, Gym	2352400
+173	522	4	2.5	-122.22	37.86	4	NEAR BAY	5	linoleum	4410	Subway	Parks, Diners, Cafes, Sauna Center, Shopping Mall	8620400
+174	501	3	2	-122.4	37.58	5	NEAR OCEAN	5	linoleum	3070	Subway	Diners, Cafes, Activity Center, Sauna Center	6523400
+175	151	5	4	-122.48	37.57	6	NEAR OCEAN	4	hardwood	4980	Bus Stop	Cafes, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	13449000
+176	369	2	2	-122.15	37.7	7	NEAR BAY	5	vinyl	2930	Bus Stop	Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	10726400
+177	210	3	3	-121.91	36.62	6	<1H OCEAN	5	hardwood	2180	Subway	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15024888
+178	378	2	2	-118.21	33.79	6	NEAR OCEAN	2	vinyl	2290	Bus Stop	Diners, Cafes, Activity Center, Sauna Center	5639400
+179	97	5	3	-118.61	34.24	3	<1H OCEAN	3	vinyl	4480	Bus Stop	Swimming Pool, Recreational Center	6199000
+180	27	4	4.5	-122.49	38.1	8	NEAR BAY	3	linoleum	4270	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11846000
+181	390	2	2	-117.11	32.77	10	NEAR OCEAN	4	linoleum	2020	Bus Stop	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Shopping Mall	10805500
+182	102	4	4	-122.28	37.84	10	NEAR BAY	5	hardwood	3180	Subway	Parks, Gym, Recreational Center, Shopping Mall	9948000
+183	421	2	2	-122.07	37.66	5	NEAR BAY	5	vinyl	2700	Bus Stop	Recreational Center	4245000
+184	371	2	2	-121.45	38.53	6	INLAND	3	vinyl	4610	Bus Stop	Parks, Diners, Cafes, Activity Center, Sauna Center, Recreational Center	9065400
+185	55	5	3	-118.0	33.67	6	<1H OCEAN	3	vinyl	2860	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Sauna Center, Recreational Center	8938999
+186	441	4	3	-120.99	39.26	3	INLAND	4	vinyl	2450	Bus Stop	Parks, Shopping Mall	5561500
+187	366	2	2	-121.28	38.76	9	INLAND	2	linoleum	3460	Subway	Sauna Center, Shopping Mall	7322900
+188	481	3	2	-122.42	37.79	10	NEAR BAY	1	hardwood	2570	Subway	Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	12728500
+189	250	4	3	-122.15	37.45	10	NEAR BAY	4	linoleum	2360	Bus Stop	Cafes, Gym, Swimming Pool, Shopping Mall	7947900
+190	462	10	6	-121.16	41.78	8	INLAND	1	hardwood	2660	Subway	Shopping Mall	5332000
+191	473	4	4	-121.25	38.69	3	INLAND	2	vinyl	2280	Subway	Shopping Mall	5934000
+192	474	3	2	-122.54	37.72	3	NEAR OCEAN	4	linoleum	3190	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14669500
+193	409	2	2	-118.09	34.06	6	<1H OCEAN	1	vinyl	4460	Subway	Diners, Gym, Activity Center, Recreational Center, Shopping Mall	10847000
+194	109	4	3	-117.73	34.04	5	INLAND	4	hardwood	2080	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center	8302000
+195	321	3	2	-118.24	34.16	10	<1H OCEAN	5	linoleum	2270	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15408500
+196	140	2	2	-120.42	34.89	4	<1H OCEAN	4	linoleum	2130	Bus Stop	Diners, Cafes, Sauna Center, Recreational Center, Shopping Mall	11944500
+197	80	3	2	-117.8	34.03	5	<1H OCEAN	1	hardwood	3270	Subway	Parks, Diners, Gym, Activity Center, Sauna Center, Shopping Mall	10258400
+198	81	4	2.5	-121.54	38.59	8	INLAND	1	vinyl	3600	Bus Stop	Diners	1379000
+199	508	3	1.5	-118.16	34.01	7	<1H OCEAN	4	vinyl	4620	Subway	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14825900
+200	489	2	2	-121.57	38.19	7	INLAND	4	hardwood	3200	Subway	Gym, Swimming Pool, Sauna Center	6179500
+201	495	3	2	-121.98	37.28	5	<1H OCEAN	1	hardwood	4400	Bus Stop	Swimming Pool, Shopping Mall	6455000
+202	228	5	3	-117.94	33.81	4	<1H OCEAN	5	hardwood	2860	Bus Stop	Shopping Mall	5660500
+203	63	4	3	-122.23	37.78	8	NEAR BAY	5	hardwood	4860	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15662900
+204	106	3	2.5	-119.25	35.76	7	INLAND	2	vinyl	4140	Subway	Diners, Recreational Center	4826000
+205	161	4	2	-121.49	38.57	9	INLAND	3	linoleum	4820	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15420900
+206	215	4	2.5	-121.54	39.08	4	INLAND	5	vinyl	2420	Subway	Recreational Center	5090000
+207	442	4	2	-122.28	37.87	9	NEAR BAY	1	vinyl	2130	Bus Stop	Gym, Activity Center, Sauna Center, Recreational Center	9250500
+208	273	4	3	-122.22	37.4	6	NEAR OCEAN	3	hardwood	3460	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center	5913000
+209	461	3	2	-118.33	33.96	4	<1H OCEAN	1	linoleum	2420	Bus Stop	Diners, Cafes, Activity Center, Recreational Center	6751000
+210	300	5	4	-117.88	33.89	3	<1H OCEAN	3	linoleum	4650	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	13239500
+211	282	3	3	-118.45	33.99	5	<1H OCEAN	5	linoleum	3190	Bus Stop	Shopping Mall	5588500
+212	299	5	3.5	-117.04	32.62	5	NEAR OCEAN	1	hardwood	3670	Subway	Activity Center	3003500
+213	400	2	2	-122.04	36.96	8	NEAR OCEAN	5	linoleum	2370	Subway	Activity Center, Recreational Center	6068000
+214	424	4	4	-118.13	34.68	5	INLAND	2	linoleum	4990	Bus Stop	Cafes, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11474400
+215	488	2	2	-121.24	38.78	3	INLAND	2	vinyl	3930	Bus Stop	Activity Center, Sauna Center, Shopping Mall	9121500
+216	82	2	2	-122.26	38.11	10	NEAR BAY	2	vinyl	3460	Subway	Diners, Swimming Pool, Activity Center, Sauna Center, Recreational Center	10122800
+217	148	3	2.5	-118.38	33.85	5	<1H OCEAN	4	linoleum	2720	Subway	Diners, Gym	2634000
+218	264	3	2	-122.42	40.63	4	INLAND	5	vinyl	4740	Subway	Diners, Cafes, Swimming Pool, Sauna Center, Shopping Mall	9707000
+219	15	5	5	-118.39	34.05	8	<1H OCEAN	1	hardwood	2830	Bus Stop	Parks, Cafes, Gym, Activity Center, Shopping Mall	8491500
+220	61	3	2.5	-118.3	34.25	8	<1H OCEAN	4	vinyl	3080	Subway	Parks, Cafes, Gym, Activity Center, Sauna Center, Shopping Mall	10683900
+221	185	5	3.5	-121.72	36.81	3	<1H OCEAN	3	linoleum	4610	Subway		2228185
+222	499	3	2.5	-117.19	34.06	7	INLAND	1	vinyl	3480	Subway	Cafes	1363000
+223	47	4	3	-118.63	34.11	7	<1H OCEAN	1	vinyl	2000	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15200000
+224	134	7	7	-118.44	34.22	8	<1H OCEAN	3	linoleum	3650	Subway	Parks	2102500
+225	79	4	2	-117.23	33.09	1	NEAR OCEAN	4	hardwood	3920	Bus Stop	Parks, Activity Center, Recreational Center, Shopping Mall	10395000
+226	456	4	2	-117.83	33.97	2	<1H OCEAN	5	linoleum	3820	Bus Stop	Sauna Center	4040950
+227	392	3	2	-118.46	34.31	4	<1H OCEAN	3	hardwood	2440	Bus Stop	Parks, Diners, Gym, Sauna Center, Recreational Center	7757000
+228	380	2	2	-118.11	33.79	7	<1H OCEAN	3	vinyl	2670	Bus Stop	Parks, Diners, Gym, Activity Center, Sauna Center, Recreational Center	9418500
+229	272	5	3	-118.14	33.77	9	NEAR OCEAN	5	vinyl	2190	Bus Stop	Parks, Gym, Swimming Pool, Recreational Center, Shopping Mall	10799500
+230	288	2	2	-117.25	34.11	6	INLAND	1	hardwood	3420	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14916000
+231	393	3	2	-117.21	32.74	10	NEAR OCEAN	4	vinyl	4390	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13518500
+232	3	3	4	-119.46	35.86	4	INLAND	2	linoleum	4770	Subway	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14697500
+233	313	3	1	-122.11	37.37	9	NEAR BAY	2	vinyl	3690	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15289500
+234	507	3	2	-120.81	37.53	3	INLAND	3	linoleum	2220	Bus Stop	Parks, Gym, Swimming Pool, Recreational Center	6139000
+235	311	3	2.5	-117.17	34.05	5	INLAND	1	vinyl	4890	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11797500
+236	304	4	3	-122.52	38.7	5	INLAND	2	hardwood	4350	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15152500
+237	480	2	2	-117.27	33.02	2	NEAR OCEAN	3	linoleum	4600	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11819900
+238	192	2	2	-122.03	36.97	10	NEAR OCEAN	4	vinyl	2870	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	12382300
+239	180	3	2	-118.14	34.19	9	INLAND	2	vinyl	4980	Subway	Parks, Diners, Gym, Activity Center, Sauna Center, Recreational Center	10164000
+240	438	4	3	-117.26	33.09	2	NEAR OCEAN	2	vinyl	3630	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	13180277
+241	4	5	5	-122.11	37.64	6	NEAR BAY	3	hardwood	4520	Bus Stop	Parks, Sauna Center	4336000
+242	531	5	2	-116.85	34.25	1	INLAND	4	hardwood	2910	Subway	Parks, Diners	1615400
+243	333	2	2	-120.93	37.67	1	INLAND	2	vinyl	4890	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15153000
+244	383	3	2	-121.89	38.01	5	INLAND	1	hardwood	4530	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11069000
+245	213	2	1	-120.95	37.6	7	INLAND	4	linoleum	2860	Subway	Cafes, Gym, Recreational Center	5962000
+246	377	3	2	-117.31	34.43	3	INLAND	4	vinyl	3670	Bus Stop	Diners, Cafes, Swimming Pool, Activity Center	4782500
+247	289	2	2	-119.56	36.1	5	INLAND	3	hardwood	2000	Bus Stop	Parks, Diners, Cafes, Gym, Sauna Center, Recreational Center, Shopping Mall	12098000
+248	128	2	2.5	-122.42	37.72	8	NEAR BAY	1	vinyl	2740	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11104000
+249	479	2	2	-121.31	37.99	4	INLAND	1	vinyl	4290	Subway	Diners, Cafes, Activity Center, Shopping Mall	7314400
+250	326	4	2	-122.47	37.74	10	NEAR BAY	5	vinyl	4000	Bus Stop	Diners, Activity Center, Shopping Mall	7635000
+251	145	3	2.5	-122.2	39.53	4	INLAND	5	vinyl	4090	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16004500
+252	43	3	2	-122.5	37.76	9	NEAR OCEAN	1	vinyl	3910	Subway	Parks, Diners, Sauna Center, Recreational Center, Shopping Mall	11000500
+253	160	4	3.5	-117.5	34.12	0	INLAND	5	hardwood	4370	Bus Stop	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14568400
+254	503	3	2	-120.85	37.78	3	INLAND	4	vinyl	2130	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15366495
+255	243	5	4	-122.2	37.82	7	NEAR BAY	3	linoleum	4040	Subway	Parks, Cafes, Activity Center, Recreational Center, Shopping Mall	10967000
+256	385	2	2	-122.19	37.76	9	NEAR BAY	1	vinyl	2690	Subway	Parks, Cafes, Gym, Recreational Center, Shopping Mall	9243500
+257	258	4	2	-120.02	38.91	4	INLAND	3	hardwood	2880	Subway	Parks, Cafes, Gym, Activity Center, Shopping Mall	8103900
+258	363	2	2	-121.37	38.63	7	INLAND	4	hardwood	4800	Subway	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14137000
+259	512	3	2.5	-120.64	37.38	3	INLAND	4	linoleum	2740	Subway	Diners, Activity Center, Shopping Mall	7366900
+260	532	4	3.5	-121.47	38.55	4	INLAND	2	hardwood	2180	Subway	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14989000
+261	191	4	2.5	-117.17	32.7	6	NEAR OCEAN	2	linoleum	4590	Subway	Parks, Gym, Activity Center, Sauna Center, Recreational Center	10287500
+262	78	4	2.5	-117.12	32.7	2	NEAR OCEAN	1	linoleum	4710	Bus Stop		975400
+263	452	2	2	-117.07	32.71	5	NEAR OCEAN	1	vinyl	3300	Subway	Parks, Cafes, Swimming Pool, Recreational Center	5980000
+264	33	3	2	-121.36	38.03	1	INLAND	5	vinyl	4230	Bus Stop	Parks, Diners, Cafes, Sauna Center, Recreational Center	7726500
+265	124	4	2.5	-122.07	37.69	6	NEAR BAY	3	vinyl	2460	Bus Stop	Cafes, Gym, Recreational Center	5872800
+266	534	4	3	-117.09	32.7	3	NEAR OCEAN	5	linoleum	4480	Bus Stop	Parks, Diners, Cafes, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14943000
+267	125	4	4.5	-118.5	35.7	3	INLAND	1	hardwood	4720	Bus Stop	Sauna Center	4011500
+268	425	3	2	-118.15	33.76	7	NEAR OCEAN	1	linoleum	2680	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	10683000
+269	164	4	2.5	-122.27	37.83	10	NEAR BAY	1	vinyl	4530	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15371500
+270	320	4	2	-121.56	39.52	1	INLAND	2	linoleum	3250	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Recreational Center, Shopping Mall	11162500
+271	197	2	2	-118.2	33.79	9	NEAR OCEAN	2	linoleum	2360	Subway		1167000
+272	28	5	4.5	-120.98	37.65	8	INLAND	5	hardwood	2680	Subway	Gym, Shopping Mall	6779000
+273	165	4	3	-120.07	36.96	6	INLAND	4	linoleum	4900	Bus Stop	Parks, Cafes, Gym, Swimming Pool, Activity Center, Shopping Mall	10310000
+274	38	3	3.5	-121.24	38.78	2	INLAND	5	linoleum	3860	Bus Stop	Diners	2042900
+275	52	4	2	-122.47	37.75	9	NEAR BAY	4	vinyl	4160	Bus Stop	Sauna Center, Recreational Center, Shopping Mall	11307900
+276	204	3	3.5	-124.26	40.58	10	NEAR OCEAN	2	vinyl	4270	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16113500
+277	281	4	5	-121.88	36.58	5	NEAR OCEAN	5	linoleum	2830	Bus Stop	Parks, Diners, Cafes, Gym, Sauna Center	5461400
+278	53	3	3	-122.11	37.14	5	NEAR OCEAN	4	hardwood	2940	Bus Stop		1396000
+279	163	3	2	-119.27	34.28	10	NEAR OCEAN	2	hardwood	2700	Subway	Recreational Center, Shopping Mall	8324500
+280	136	4	3.5	-122.1	37.72	6	NEAR BAY	4	linoleum	2170	Bus Stop	Shopping Mall	5804000
+281	8	4	5	-122.56	37.97	10	NEAR BAY	2	vinyl	2720	Subway	Parks, Cafes, Gym, Activity Center, Recreational Center, Shopping Mall	12704000
+282	195	2	1	-117.07	32.75	1	NEAR OCEAN	3	linoleum	4060	Bus Stop	Swimming Pool, Activity Center, Recreational Center	7728000
+283	101	3	2	-122.23	37.81	10	NEAR BAY	4	hardwood	4920	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15845000
+284	188	4	2	-122.48	37.73	9	NEAR OCEAN	3	hardwood	3510	Bus Stop	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15824500
+285	54	4	2	-122.62	37.85	6	NEAR OCEAN	4	hardwood	2210	Bus Stop	Parks, Diners, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14960400
+286	372	3	2.5	-122.27	37.85	10	NEAR BAY	1	linoleum	3400	Subway	Cafes, Gym, Activity Center, Sauna Center, Shopping Mall	10569500
+287	387	2	2	-122.44	37.66	4	NEAR OCEAN	3	hardwood	2210	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool	3659500
+288	455	4	4	-124.14	40.8	6	NEAR OCEAN	4	vinyl	3300	Bus Stop	Parks, Diners, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	12824000
+289	513	3	2.5	-117.21	32.8	6	NEAR OCEAN	1	vinyl	2600	Bus Stop	Parks, Gym, Swimming Pool, Sauna Center, Recreational Center	8820000
+290	419	2	2	-117.05	32.56	3	NEAR OCEAN	3	vinyl	2940	Bus Stop	Diners, Cafes, Swimming Pool, Recreational Center	5916500
+291	118	3	2.5	-122.14	37.72	9	NEAR BAY	5	hardwood	4460	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15858000
+292	379	2	2	-122.28	37.81	3	NEAR BAY	3	vinyl	3550	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13317300
+293	166	4	3	-119.85	34.4	2	NEAR OCEAN	1	linoleum	4590	Bus Stop	Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15054499
+294	149	5	3.5	-122.43	37.77	10	NEAR BAY	3	hardwood	3140	Subway	Activity Center, Sauna Center, Shopping Mall	11072000
+295	511	4	3	-124.05	40.85	6	NEAR OCEAN	1	linoleum	3190	Bus Stop	Cafes, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11459500
+296	29	4	4	-118.19	33.85	9	NEAR OCEAN	5	vinyl	2420	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16821000
+297	235	8	6	-119.16	34.23	5	NEAR OCEAN	3	vinyl	3250	Subway	Parks, Diners, Cafes, Gym, Recreational Center, Shopping Mall	10112500
+298	171	4	3.5	-122.26	37.51	5	NEAR OCEAN	5	hardwood	4290	Bus Stop	Parks, Swimming Pool, Shopping Mall	8464499
+299	253	5	3	-122.05	37.05	8	NEAR OCEAN	3	vinyl	2370	Bus Stop		1003400
+300	310	3	2	-117.24	32.8	5	NEAR OCEAN	4	hardwood	2350	Bus Stop	Shopping Mall	5377400
+301	338	2	2	-122.13	37.7	4	NEAR BAY	1	linoleum	4680	Subway	Activity Center, Recreational Center	5839000
+302	381	1	1.5	-117.12	32.75	2	NEAR OCEAN	2	vinyl	2960	Bus Stop	Parks, Diners, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	11285500
+303	139	2	2	-122.31	38.27	6	NEAR BAY	5	linoleum	4540	Bus Stop	Swimming Pool, Activity Center	4516900
+304	11	5	5	-122.19	37.75	5	NEAR BAY	5	hardwood	2930	Subway	Gym, Recreational Center	5585700
+305	96	3	2	-122.04	37.63	6	NEAR BAY	3	vinyl	4360	Bus Stop		1339500
+306	454	3	2.5	-117.29	32.81	7	NEAR OCEAN	2	linoleum	2110	Subway	Recreational Center	4390500
+307	6	4	5	-117.23	32.73	7	NEAR OCEAN	1	hardwood	2000	Subway		1869000
+308	25	4	4.5	-122.27	37.86	9	NEAR BAY	2	vinyl	4330	Subway	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	13081500
+309	18	3	4	-118.21	33.79	6	NEAR OCEAN	5	hardwood	3280	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12659000
+310	336	2	2	-119.08	34.17	6	NEAR OCEAN	4	hardwood	3450	Subway		1096000
+311	209	3	2	-117.13	32.72	1	NEAR OCEAN	1	hardwood	4140	Bus Stop	Recreational Center	4802000
+312	93	3	2.5	-122.28	37.85	10	NEAR BAY	1	hardwood	4410	Bus Stop	Parks, Swimming Pool, Recreational Center	6199500
+313	448	4	4	-117.24	32.74	8	NEAR OCEAN	3	vinyl	3840	Subway	Diners, Cafes	2142000
+314	307	4	2.5	-117.26	32.85	6	NEAR OCEAN	3	hardwood	3440	Subway	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15652000
+315	434	3	2	-122.42	38.31	3	NEAR BAY	2	hardwood	2860	Subway	Gym, Shopping Mall	6008000
+316	94	2	2.5	-119.18	34.23	3	NEAR OCEAN	2	hardwood	4030	Bus Stop		1340500
+317	339	2	2.5	-122.01	37.03	4	NEAR OCEAN	1	linoleum	3270	Bus Stop	Parks, Swimming Pool, Activity Center, Sauna Center, Recreational Center	9498500
+318	19	5	4	-122.21	38.28	7	NEAR BAY	5	linoleum	2780	Bus Stop		2188000
+319	498	2	2	-122.08	37.39	0	NEAR BAY	4	linoleum	3360	Subway	Parks, Cafes, Gym, Activity Center, Shopping Mall	8673000
+320	355	2	2	-118.38	33.81	7	NEAR OCEAN	5	linoleum	3300	Bus Stop	Cafes, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	11929900
+321	196	1	1	-122.24	37.77	8	NEAR BAY	1	vinyl	2490	Subway	Parks, Diners, Activity Center, Sauna Center, Recreational Center	8593500
+322	324	6	4	-119.18	34.16	2	NEAR OCEAN	2	linoleum	2070	Subway	Diners, Recreational Center, Shopping Mall	8888500
+323	225	3	3.5	-122.06	37.77	2	NEAR BAY	2	vinyl	2850	Bus Stop	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14791500
+324	172	4	3	-122.24	38.14	3	NEAR BAY	3	hardwood	4620	Bus Stop	Parks	1780900
+325	244	5	3	-122.37	37.94	8	NEAR BAY	1	vinyl	2720	Bus Stop	Diners, Gym, Recreational Center	5275900
+326	323	5	3	-122.34	37.59	8	NEAR OCEAN	3	vinyl	4810	Bus Stop		1440400
+327	20	3	3.5	-117.05	32.76	9	NEAR OCEAN	2	vinyl	2380	Subway	Diners, Swimming Pool	3014000
+328	332	2	2	-122.16	37.75	9	NEAR BAY	1	linoleum	2350	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14992500
+329	463	3	1.5	-122.56	38.09	3	NEAR BAY	3	hardwood	2570	Bus Stop	Diners, Gym, Sauna Center, Shopping Mall	8653500
+330	113	5	3.5	-119.19	34.22	5	NEAR OCEAN	3	linoleum	3810	Subway	Gym, Sauna Center, Recreational Center	8259500
+331	2	4	3	-122.47	37.7	9	NEAR OCEAN	4	linoleum	2130	Subway	Diners, Cafes, Shopping Mall	6441700
+332	24	5	5	-122.29	37.85	10	NEAR BAY	3	hardwood	3660	Bus Stop		2258000
+333	214	3	1.5	-117.07	32.67	7	NEAR OCEAN	3	vinyl	3710	Bus Stop	Diners, Cafes, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13280500
+334	206	2	1	-117.09	32.8	3	NEAR OCEAN	2	vinyl	4730	Bus Stop		1415500
+335	521	5	3	-118.14	33.77	10	NEAR OCEAN	2	vinyl	2910	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15325500
+336	32	4	3.5	-122.32	37.92	5	NEAR BAY	3	linoleum	5000	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16209000
+337	491	3	2	-122.26	38.11	10	NEAR BAY	1	linoleum	2490	Subway	Parks, Diners, Cafes, Gym, Activity Center, Recreational Center, Shopping Mall	11583500
+338	460	4	3	-122.49	37.74	10	NEAR OCEAN	5	hardwood	4270	Subway	Diners, Gym, Swimming Pool, Activity Center, Recreational Center	8873400
+339	496	2	2	-118.25	33.79	6	NEAR OCEAN	4	hardwood	4370	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15648500
+340	193	3	2	-122.22	38.11	8	NEAR BAY	2	vinyl	2390	Subway	Parks, Gym, Activity Center, Recreational Center	7438500
+341	249	5	3	-122.06	37.64	4	NEAR BAY	4	hardwood	3460	Bus Stop	Shopping Mall	5553000
+342	483	3	2	-122.28	37.81	3	NEAR BAY	3	hardwood	3870	Subway	Parks, Cafes, Swimming Pool, Sauna Center, Shopping Mall	9788500
+343	314	2	1	-122.29	37.88	10	NEAR BAY	2	linoleum	4340	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15437000
+344	518	3	2.5	-122.23	38.1	9	NEAR BAY	2	vinyl	3190	Bus Stop	Gym, Swimming Pool, Sauna Center	5617500
+345	368	2	2	-117.1	32.56	3	NEAR OCEAN	2	linoleum	3740	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	12604500
+346	420	2	2	-119.17	34.18	7	NEAR OCEAN	3	hardwood	3460	Subway	Swimming Pool, Shopping Mall	6292000
+347	348	2	2	-122.29	37.81	4	NEAR BAY	5	vinyl	3640	Subway	Diners, Gym, Activity Center, Shopping Mall	7958000
+348	476	3	2	-122.12	37.68	9	NEAR BAY	2	linoleum	4340	Bus Stop	Gym, Recreational Center	5266500
+349	510	2	2.5	-120.43	34.69	6	NEAR OCEAN	2	hardwood	4520	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12371000
+350	266	6	4	-122.13	37.69	6	NEAR BAY	5	hardwood	2870	Subway	Parks, Diners, Cafes, Gym, Sauna Center	5708500
+351	22	6	6.5	-122.37	37.94	9	NEAR BAY	2	linoleum	4120	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	12571000
+352	523	4	3	-122.28	37.52	5	NEAR OCEAN	3	linoleum	2460	Bus Stop	Recreational Center	4322900
+353	468	4	2.5	-122.28	38.0	5	NEAR BAY	2	vinyl	3140	Bus Stop	Diners, Gym, Sauna Center	4736000
+354	406	2	2	-122.2	37.76	7	NEAR BAY	2	hardwood	3630	Bus Stop	Activity Center	2686400
+355	48	3	3	-122.12	37.41	6	NEAR BAY	1	vinyl	3050	Subway	Parks, Gym, Swimming Pool, Shopping Mall	7312400
+356	359	2	2	-117.3	32.96	6	NEAR OCEAN	2	vinyl	2090	Bus Stop		771900
+357	429	3	2	-122.53	37.93	8	NEAR BAY	2	linoleum	3050	Subway	Parks, Cafes, Gym, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	12871500
+358	143	3	2	-120.65	35.27	3	NEAR OCEAN	3	hardwood	3060	Bus Stop	Parks, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	11072000
+359	426	3	2	-122.02	36.99	6	NEAR OCEAN	3	hardwood	3980	Subway	Parks, Diners, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	11734000
+360	458	3	2	-122.09	37.65	7	NEAR BAY	4	linoleum	4370	Subway	Parks, Gym, Sauna Center, Recreational Center	7628400
+361	352	2	2	-118.37	33.81	7	NEAR OCEAN	3	hardwood	4830	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15310400
+362	21	3	3.5	-122.41	37.79	10	NEAR BAY	1	linoleum	2930	Subway	Gym	3165500
+363	453	4	3	-122.29	37.88	9	NEAR BAY	5	vinyl	2660	Subway	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	12552500
+364	271	3	1.5	-119.17	34.17	6	NEAR OCEAN	3	linoleum	2350	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	16036500
+365	245	5	3	-120.83	35.36	5	NEAR OCEAN	3	vinyl	4960	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15657800
+366	484	2	2	-122.02	37.56	7	NEAR BAY	5	hardwood	2170	Bus Stop	Parks, Gym, Activity Center, Sauna Center	6388500
+367	519	4	2.5	-118.31	33.74	7	NEAR OCEAN	1	vinyl	4820	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15280000
+368	229	5	5	-122.27	37.79	5	NEAR BAY	1	linoleum	3040	Bus Stop	Parks, Cafes, Gym, Swimming Pool, Recreational Center, Shopping Mall	10981000
+369	87	5	4.5	-117.24	32.81	6	NEAR OCEAN	5	hardwood	2740	Subway		2487000
+370	194	2	1	-117.19	32.75	10	NEAR OCEAN	5	hardwood	3820	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15890000
+371	158	3	2	-118.16	33.77	6	NEAR OCEAN	1	hardwood	4690	Bus Stop	Diners, Cafes, Swimming Pool, Sauna Center, Recreational Center	8524400
+372	500	4	4	-118.18	33.83	8	NEAR OCEAN	3	vinyl	3080	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Recreational Center	9949000
+373	68	4	3	-122.29	37.92	6	NEAR BAY	4	vinyl	3280	Bus Stop	Parks, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15100500
+374	152	3	2.5	-122.42	37.66	7	NEAR OCEAN	4	linoleum	3190	Bus Stop	Parks, Diners, Gym, Sauna Center, Recreational Center	7829300
+375	260	3	3	-122.49	37.79	10	NEAR BAY	2	hardwood	3630	Subway		1501700
+376	394	2	2	-117.06	32.57	3	NEAR OCEAN	4	linoleum	4180	Bus Stop	Parks, Diners, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14042900
+377	485	2	2	-122.48	37.51	4	NEAR OCEAN	4	vinyl	3810	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	11375500
+378	13	5	3	-117.09	32.69	6	NEAR OCEAN	1	hardwood	4020	Bus Stop	Parks, Diners, Swimming Pool, Activity Center, Recreational Center, Shopping Mall	12050000
+379	342	2	2	-122.27	37.77	4	NEAR BAY	1	hardwood	4420	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center	10990900
+380	131	4	3.5	-122.34	37.99	8	NEAR BAY	5	linoleum	3820	Subway	Cafes, Swimming Pool	4260999
+381	404	2	2	-122.26	37.8	4	NEAR BAY	5	linoleum	3270	Subway	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15323000
+382	356	2	2	-122.52	37.88	10	NEAR BAY	5	linoleum	3020	Subway		1138000
+383	221	4	2	-122.25	37.47	7	NEAR OCEAN	5	hardwood	2210	Subway	Parks, Diners, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	13725500
+384	514	4	2	-117.09	32.74	8	NEAR OCEAN	2	linoleum	2940	Bus Stop		1082000
+385	186	6	4	-117.09	32.68	4	NEAR OCEAN	5	vinyl	4350	Bus Stop	Parks, Gym, Activity Center	5162500
+386	133	3	2.5	-122.48	37.75	9	NEAR BAY	4	vinyl	3680	Bus Stop	Parks, Swimming Pool, Activity Center, Sauna Center	7633000
+387	41	4	1	-117.08	32.64	8	NEAR OCEAN	4	linoleum	2430	Subway	Cafes	1736500
+388	122	3	2	-117.25	32.83	3	NEAR OCEAN	4	linoleum	3740	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15762000
+389	39	3	4.5	-122.25	37.45	6	NEAR OCEAN	4	hardwood	3760	Subway	Swimming Pool, Sauna Center, Shopping Mall	9987000
+390	397	2	2	-122.42	37.75	10	NEAR BAY	2	vinyl	4950	Subway	Activity Center, Recreational Center	5892500
+391	362	3	2	-122.28	37.86	8	NEAR BAY	2	vinyl	2860	Subway	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15138000
+392	403	3	2	-122.26	38.28	4	NEAR BAY	3	vinyl	4020	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Sauna Center, Recreational Center	9380000
+393	91	4	3.5	-122.45	37.78	10	NEAR BAY	4	linoleum	4960	Bus Stop	Parks, Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Shopping Mall	13143000
+394	354	2	1.5	-122.1	37.96	4	NEAR BAY	4	linoleum	4730	Bus Stop	Parks, Gym, Swimming Pool, Sauna Center, Recreational Center, Shopping Mall	12866400
+395	103	2	2	-122.45	37.78	9	NEAR BAY	2	linoleum	2780	Subway	Parks, Activity Center, Recreational Center, Shopping Mall	10054900
+396	296	5	3.25	-122.18	37.78	6	NEAR BAY	5	vinyl	3070	Bus Stop	Parks, Diners, Gym, Swimming Pool, Sauna Center, Recreational Center	9418500
+397	7	3	4	-122.45	37.72	9	NEAR BAY	1	vinyl	2700	Subway	Diners, Cafes, Gym, Swimming Pool	4054000
+398	341	2	2	-122.08	37.64	4	NEAR BAY	3	vinyl	2680	Bus Stop	Diners, Cafes, Gym, Swimming Pool, Activity Center, Sauna Center, Recreational Center, Shopping Mall	15008900
+399	294	3	2	-122.41	37.79	10	NEAR BAY	3	hardwood	3880	Subway	Diners, Swimming Pool, Sauna Center	5007000
+400	90	7	4	-118.32	33.35	5	ISLAND	1	vinyl	2670	Bus Stop	Diners	1358500
+401	373	2	2	-118.48	33.43	5	ISLAND	1	linoleum	3660	Bus Stop	Diners	907900
+402	418	2	2	-118.32	33.33	10	ISLAND	4	hardwood	2460	Subway	Parks, Diners, Cafes, Gym, Activity Center, Sauna Center, Shopping Mall	10842900
+403	470	5	2	-118.33	33.34	10	ISLAND	4	linoleum	3530	Subway	Parks, Cafes, Gym, Activity Center, Sauna Center, Recreational Center, Shopping Mall	14345500
+404	199	3	1.5	-118.32	33.34	10	ISLAND	1	hardwood	4520	Bus Stop		1621000

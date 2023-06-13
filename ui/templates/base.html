@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Patua+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header div -->
+    <div class="headerclass">
+        <img class="logo" src="https://cdn.vox-cdn.com/thumbor/D7JX4VUSRrRMxcvSkBDykZIkavM=/0x52:500x385/1400x1050/filters:focal(0x52:500x385):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/7637953/-8440ec73343f6236.0.jpeg" >
+        <div class = "overlay">
+            <h1 class = "headtext">Chatbot</h1>
+        </div>
+    </div>
+    <!-- slideshow div-->
+      <!-- Slider -->
+      <main>
+        <!-- Slider -->
+        <div class="wrapper">
+          <div class="prev-btn"><i class="uil uil-angle-left-b"></i></div>
+          <div class="slides-container">
+            <div class="slide-image">
+                <div></div>
+            </div>
+        </div>
+          <div class="next-btn"><i class="uil uil-angle-right-b"></i></div>
+          <div class="navigation-dots"></div>
+        </div>
+        
+      </main>
+
+    <!-- chatbox div-->
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chatbot</h4>
+                        <p class="chatbox__description--header">Try a DIY or Cooking task !</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="https://img.icons8.com/pastel-glyph/64/FA5252/filled-chat.png" width="30px"/></button>
+            </div>
+        </div>
+    </div>
+
+        <script>
+            $SCRIPT_ROOT = {{ request.script_root|tojson }};
+        </script>
+        <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

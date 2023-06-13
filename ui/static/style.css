@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  background: #f7f6f7;
+}
+
+*, html {
+  --primaryGradient: linear-gradient(93.12deg,  #c50000 -2.14%, #750000 99.69%);
+  --secondaryGradient: linear-gradient(268.91deg, #b90303 -2.14%, #ac0000 99.69%);
+  --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+  --primary: #a51d05;
+}
+/*Header*/
+.headerclass {
+  background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+
+.headerclass .overlay{
+  width: 100%;
+  height: 70%;
+  padding: 50px;
+  color: #faf5f5fb;
+  text-shadow: 1px 1px 1px #333;
+background-image: linear-gradient( 135deg,#b50c0c 40%, #620707fa 80%);
+  
+}
+
+.logo{
+position: absolute;
+left: 200px;
+top: 40px; 
+width:200px;
+height:auto;
+}
+
+h1 {
+  font-size: 100px;
+    margin-bottom: 30px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+
+/*slide image*/
+:root {
+  --bc: #fafaff;
+  --primary: #da2c4d;
+  --white: #ffffff;
+  --black: #000000;
+  /* Colors */
+  --dark-red: #6e1727;
+  /* Gray Colors */
+  --gray: #6c757d;
+  --gray-light: #fcf1ec;
+  --gray-extra-dark: #343a40;
+  /* Sizes */
+  --heading: 3.4rem;
+  --heading-large: 7.5rem;
+  --heading-medium: 2rem;
+  --paragraph: 1.1rem;
+  /* Fonts */
+  --font-main: "Poppins";
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--bc);
+}
+main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:baseline;
+}
+.space {
+  min-height: 20vh;
+}
+/* Slider */
+.wrapper 
+{
+  width: 45%;
+  position: relative;
+  box-shadow: 0 50px 50px -30px rgba(0, 0, 0, .55);
+  overflow: hidden;
+  left: 30px;
+}
+.slides-container {
+  height: 70vh;
+  transition: transform .75s cubic-bezier(0.48, 0.15, 0.18, 1);
+  position: relative;
+}
+.slide-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/*.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}*/
+.next-btn, .prev-btn {
+  top: 50%;
+  margin: 0 .25em;
+  padding: .2em .3em;
+  font-size: 2.22rem;
+  color: var(--white);
+  background: transparent;
+  position: absolute;
+  transform: translateY(-50%);
+  transition: all .2s;
+  cursor: pointer;
+  z-index: 100;
+}
+.next-btn:hover, .prev-btn:hover {
+  opacity: .8;
+}
+.prev-btn {
+  left: 0;
+}
+.next-btn {
+  right: 0;
+}
+/* Navigation Dots */
+.navigation-dots {
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0;
+  z-index: 100;
+}
+.single-dot {
+  width: .8rem;
+  height: .8rem;
+  margin: 0 .4em;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  background: transparent;
+  cursor: pointer;
+  transition: .2s;
+}
+.single-dot.active {
+  background: var(--white);
+}
+
+
+
+
+/* CHATBOX
+=============== */
+
+
+.chatbox {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+
+
+}
+
+/* CONTENT IS CLOSE */
+.chatbox__support {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  z-index: -123456;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  
+}
+
+.chatbox__support.chatbox--active{
+  width: 1200px;
+  height: 890px;
+}
+
+/* CONTENT ISOPEN */
+.chatbox--active {
+  transform: translateY(-40px);
+  z-index: 123456;
+  opacity: 1;
+
+}
+
+/* BUTTON */
+.chatbox__button {
+  text-align: right;
+}
+
+.send__button {
+  padding: 6px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+
+/* HEADER */
+.chatbox__header {
+  position: sticky;
+  top: 0;
+  background: orange;
+}
+
+/* MESSAGES */
+.chatbox__messages {
+  margin-top: auto;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column-reverse;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+.messages__item {
+  background: orange;
+  max-width: 60.6%;
+  width: fit-content;
+}
+
+.messages__item--operator {
+  margin-left: auto;
+}
+
+.messages__item--visitor {
+  margin-right: auto;
+}
+
+/* FOOTER */
+.chatbox__footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.chatbox__support {
+  background: #f9f9f9;
+  height: 450px;
+  width: 350px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+/* HEADER */
+.chatbox__header {
+  background: var(--primaryGradient);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: var(--primaryBoxShadow);
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+.chatbox__image--header {
+  margin-right: 10px;
+}
+
+.chatbox__heading--header {
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+
+}
+
+.chatbox__description--header {
+  font-size: .9rem;
+  color: white;
+}
+
+/* Messages */
+.chatbox__messages {
+  padding: 0 20px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+.messages__item {
+  margin-top: 10px;
+  background: #E0E0E0;
+  padding: 8px 12px;
+  max-width: 70%;
+}
+
+.messages__item--visitor,
+.messages__item--typing {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+  font-size: large;
+}
+
+.messages__item--operator {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: var(--primary);
+  color: white;
+}
+
+/* FOOTER */
+.chatbox__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background: var(--secondaryGradient);
+  box-shadow: var(--secondaryBoxShadow);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+.chatbox__footer input {
+  width: 900px;
+  height: 40px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+.chatbox__send--footer {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+.chatbox__send--footer.send__button {
+  width: 150px;
+  height: 50px;
+  font-size: large;
+
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: none;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+

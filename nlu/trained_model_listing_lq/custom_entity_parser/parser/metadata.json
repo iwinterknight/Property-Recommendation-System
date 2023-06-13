@@ -1,0 +1,8 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "listingDesc",
+      "entity_parser": "parser_1"
+    }
+  ]
+}
