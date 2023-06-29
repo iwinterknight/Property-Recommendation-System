@@ -1,7 +1,12 @@
+import pickle
 import random
+import uuid
 from dialog_agent_prompts import prompts
 from nlu.nlu_utils import extract_intents_slots, get_closest_sentence
 from llm_prompts import get_llm_response, generate_paraphrase
+from src.elasticsearch.elasticsearch_manager import ElasticSearchManager
+from src.elasticsearch.execute_elasticsearch import index_data
+from src.elasticsearch.execute_elasticsearch import search_index
 
 CRED = '\033[91m'
 CGREEN  = '\33[32m'
@@ -188,11 +193,11 @@ class DialogAgent:
             if not llm_dialog_state["_input"]:
                 if response_status == "RESPONSE":
                     if response == "seaside" or response == "by the sea":
-                        filtered_response = ["NEAR OCEAN", "ISLAND"]
+                        filtered_response = "NEAR OCEAN, ISLAND"
                     elif response == "less than hour to sea":
-                        filtered_response = ["NEAR BAY", "<1H OCEAN"]
+                        filtered_response = "NEAR BAY, 1H OCEAN"
                     elif response == "inland" or response == "far from sea":
-                        filtered_response = ["INLAND"]
+                        filtered_response = "INLAND"
                     llm_dialog_state["_input"] = filtered_response
                     llm_dialog_state["_description"] = "RESPONSE"
                     response_prefix_dict[state] = ("RESPONSE", filtered_response)
@@ -238,7 +243,31 @@ class DialogAgent:
         return
 
 
-agent = DialogAgent()
-agent.initialize_dialog_agent()
-agent.start_dialogue()
-agent.execute_turn()
+def main():
+    es_manager = ElasticSearchManager()
+    index_uuid = str(uuid.uuid4())
+    # index_data(es_manager, index_name=index_uuid)
+    # with open("ElasticIndexName", "w") as f:
+    #     f.write(index_uuid)
+
+
+    # agent = DialogAgent()
+    # agent.initialize_dialog_agent()
+    # agent.start_dialogue()
+    # completed_dialog_state = agent.execute_turn()
+
+    with open("completed_dialog_state.pkl", "rb") as f:
+        completed_dialog_state = pickle.load(f)
+
+    completed_dialog_state["lq_price"]["_input"] = {"less_than": 9000000}
+    completed_dialog_state["lq_sea_proximity"]["_input"] = "INLAND"
+
+    with open("ElasticIndexName", "r") as f:
+        index_uuid = f.read()
+    es_manager.setup_search_client(index_name=index_uuid)
+    search_index(es_manager, completed_dialog_state)
+    print("Fin!")
+
+
+if __name__=='__main__':
+    main()

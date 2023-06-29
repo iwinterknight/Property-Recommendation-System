@@ -1,19 +1,19 @@
-from elasticsearch_manager import ElasticSearchManager
-from form_search_query import form_query
+# from elasticsearch_manager import ElasticSearchManager
+from src.elasticsearch.form_search_query import create_elasticsearch_query
 from data.mappings import housing_features_mapping
 
 
-def index_data(es_manager):
-    index_name = "housing_features"
+def index_data(es_manager, index_name):
     index_mapping = housing_features_mapping
     data_path = "../../data/housing_features.csv"
     es_manager.create_es_index(index_name=index_name, index_mapping=index_mapping, data_path=data_path)
     es_manager.setup_search_client(index_name=index_name)
 
 
-def search_index(es_manager, attribute_form):
+def search_index(es_manager, completed_dialog_state):
     index_name = "housing_features"
-    query = form_query(attribute_form)
+    # query = form_query(attribute_form)
+    query = create_elasticsearch_query(completed_dialog_state)
     res = es_manager.search_index(query, index_name)
     print("Got %d Hits:" % res['hits']['total']['value'])
     for i, hit in enumerate(res['hits']['hits']):
@@ -120,6 +120,6 @@ attribute_form = [
 ]
 
 
-es_manager = ElasticSearchManager()
-es_manager.setup_search_client(index_name="housing_features")
-search_index(es_manager, attribute_form)
+# es_manager = ElasticSearchManager()
+# es_manager.setup_search_client(index_name="housing_features")
+# search_index(es_manager, attribute_form)

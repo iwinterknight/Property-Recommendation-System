@@ -1,6 +1,6 @@
 import json
 import os
-from elasticsearch_service import EsManagement
+from src.elasticsearch.elasticsearch_service import EsManagement
 
 
 class ElasticSearchManager:

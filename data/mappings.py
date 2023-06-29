@@ -1,7 +1,7 @@
 housing_features_mapping = {
     "mappings": {
         "properties": {
-            # "index": {"type": "integer"},
+            "index": {"type": "integer"},
             "bedrooms": {"type": "integer"},
             "bathrooms": {"type": "float"},
             "longitude": {"type": "float"},
@@ -14,25 +14,6 @@ housing_features_mapping = {
             "house_public_transport": {"type": "text"},
             "neighborhood_features": {"type": "text"},
             "price": {"type": "integer"}
-        }
-    }
-}
-
-netflix_mapping = {
-    "mappings": {
-        "properties": {
-            "show_id": {"type": "text"},
-            "type": {"type": "text"},
-            "title": {"type": "text"},
-            "director": {"type": "text"},
-            "cast": {"type": "text"},
-            "country": {"type": "text"},
-            "date_added": {"type": "text"},
-            "release_year": {"type": "integer"},
-            "rating": {"type": "text"},
-            "duration": {"type": "text"},
-            "listed_in": {"type": "text"},
-            "description": {"type": "text"},
         }
     }
 }
