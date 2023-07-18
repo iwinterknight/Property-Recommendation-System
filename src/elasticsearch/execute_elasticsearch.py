@@ -5,7 +5,7 @@ from data.mappings import housing_features_mapping
 
 def index_data(es_manager, index_name):
     index_mapping = housing_features_mapping
-    data_path = "../../data/housing_features.csv"
+    data_path = "data/housing_features.csv"
     es_manager.create_es_index(index_name=index_name, index_mapping=index_mapping, data_path=data_path)
     es_manager.setup_search_client(index_name=index_name)
 
@@ -15,9 +15,12 @@ def search_index(es_manager, completed_dialog_state):
     # query = form_query(attribute_form)
     query = create_elasticsearch_query(completed_dialog_state)
     res = es_manager.search_index(query, index_name)
+    res_dict = {}
     print("Got %d Hits:" % res['hits']['total']['value'])
     for i, hit in enumerate(res['hits']['hits']):
+        res_dict[i] = hit["_source"]
         print("Result {} : {}\tScore : {}".format(i, hit["_source"], hit["_score"]))
+    return res_dict
 
 
 sample_query = {

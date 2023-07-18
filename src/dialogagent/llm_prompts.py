@@ -3,7 +3,7 @@ import openai
 
 # openai.api_key = "*****************************************************"
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def create_lm_prompt(state, user_utterance, state_history, OOD):
@@ -35,6 +35,7 @@ def create_lm_prompt(state, user_utterance, state_history, OOD):
 def get_llm_response(state, user_utterance, state_history, OOD=False):
     llm_prompt = create_lm_prompt(state, user_utterance, state_history, OOD)
     if not llm_prompt:
+        print("LLM Error.\n")
         return "ERROR", None
     try:
         response = openai.ChatCompletion.create(
@@ -67,6 +68,7 @@ def get_llm_response(state, user_utterance, state_history, OOD=False):
     response_dict = json.loads(response_json)
     if "response" in response_dict:
         if response_dict["response"] == -1:
+            print("LLM Error.\n")
             return "ERROR", None
         return "RESPONSE", response_dict["response"]
     elif "less_than" in response_dict or "greater_than" in response_dict:

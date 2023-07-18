@@ -139,7 +139,7 @@ def create_elasticsearch_query(completed_dialog_state):
                         lval = None
                         rval = range_val["less_than"]
                         atomic_query = create_numeric_atomic(attribute, exact, range, lrange, urange, val, lval, rval)
-        if state_key in ['lq_bedrooms', 'lq_bathrooms', 'lq_area', 'lq_price']:
+        if state_key in ['lq_bedrooms', 'lq_bathrooms', 'lq_price']:
             query_list = query["bool"]["must"]
         else:
             query_list = query["bool"]["should"]
