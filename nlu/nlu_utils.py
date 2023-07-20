@@ -6,8 +6,8 @@ import nltk
 import en_core_web_sm
 from collections import OrderedDict
 from flask import Flask
-from snips_nlu import SnipsNLUEngine
-from snips_nlu.default_configs import CONFIG_EN
+# from snips_nlu import SnipsNLUEngine
+# from snips_nlu.default_configs import CONFIG_EN
 from spacy.lang.en import English
 from spacy.training import offsets_to_biluo_tags
 from nltk import word_tokenize, pos_tag, ne_chunk
@@ -33,7 +33,7 @@ model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 
 def get_closest_sentence(reference, sentences):
-    ref_embed =  model.encode(reference)
+    ref_embed = model.encode(reference)
     sent_embeddings = model.encode(sentences)
     max_sim, max_sim_index = 0.0, None
     for i, sent_embed in enumerate(sent_embeddings):
@@ -66,17 +66,17 @@ def preprocess(text):
     return text.translate(punct_lookup)
 
 
-def train_snips_nlu(model_dir):
-    with io.open("data/dataset.json") as f:
-        dataset = json.load(f)
-
-    seed = 42
-    engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
-    engine.fit(dataset)
-
-    engine.persist(model_dir)
-
-    return engine
+# def train_snips_nlu(model_dir):
+#     with io.open("data/dataset.json") as f:
+#         dataset = json.load(f)
+#
+#     seed = 42
+#     engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
+#     engine.fit(dataset)
+#
+#     engine.persist(model_dir)
+#
+#     return engine
 
 
 def semantic_abstraction(text):
@@ -209,51 +209,51 @@ def output_entity_tagging(data, chunked, semantic_entities):
         return trimmed_filtererd_entities, intent
 
 
-def extract_intents_slots(query, intent, train='False'):
-    model_dir = None
-    if intent == "lead_qualification":
-        model_dir = model_dir_listing_lq
-
-    if train == 'True':
-        if os.path.exists(model_dir):
-            shutil.rmtree(model_dir)
-        engine = train_snips_nlu(model_dir)
-    else:
-        engine = SnipsNLUEngine.from_path(model_dir)
-
-    query = preprocess(query)
-
-    chunked, semantic_entities, extracted_entities = semantic_abstraction(query)
-    parsing = engine.parse(query)
-
-    # print(parsing)
-
-    refined_entities, intent = output_entity_tagging([parsing], chunked, semantic_entities)
-
-    output = {"intent": intent}
-    for refined in refined_entities:
-        tagged_slots = OrderedDict()
-        slot_type = refined[0]
-        slot_value = refined[1]
-        start_index = refined[2]
-        end_index = refined[3]
-        output[slot_type] = slot_value
-
-
-    # output = []
-    # for refined in refined_entities:
-    #     tagged_slots = OrderedDict()
-    #     slot_type = refined[0]
-    #     slot_value = refined[1]
-    #     start_index = refined[2]
-    #     end_index = refined[3]
-    #
-    #     tagged_slots['1_slot_type'] = slot_type
-    #     tagged_slots['2_slot_value'] = slot_value
-    #     tagged_slots['3_start_index'] = start_index
-    #     tagged_slots['4_end_index'] = end_index
-    #
-    #     output.append(tagged_slots)
-    # output.append({"intent": intent})
-
-    return output
+# def extract_intents_slots(query, intent, train='False'):
+#     model_dir = None
+#     if intent == "lead_qualification":
+#         model_dir = model_dir_listing_lq
+#
+#     if train == 'True':
+#         if os.path.exists(model_dir):
+#             shutil.rmtree(model_dir)
+#         engine = train_snips_nlu(model_dir)
+#     else:
+#         engine = SnipsNLUEngine.from_path(model_dir)
+#
+#     query = preprocess(query)
+#
+#     chunked, semantic_entities, extracted_entities = semantic_abstraction(query)
+#     parsing = engine.parse(query)
+#
+#     # print(parsing)
+#
+#     refined_entities, intent = output_entity_tagging([parsing], chunked, semantic_entities)
+#
+#     output = {"intent": intent}
+#     for refined in refined_entities:
+#         tagged_slots = OrderedDict()
+#         slot_type = refined[0]
+#         slot_value = refined[1]
+#         start_index = refined[2]
+#         end_index = refined[3]
+#         output[slot_type] = slot_value
+#
+#
+#     # output = []
+#     # for refined in refined_entities:
+#     #     tagged_slots = OrderedDict()
+#     #     slot_type = refined[0]
+#     #     slot_value = refined[1]
+#     #     start_index = refined[2]
+#     #     end_index = refined[3]
+#     #
+#     #     tagged_slots['1_slot_type'] = slot_type
+#     #     tagged_slots['2_slot_value'] = slot_value
+#     #     tagged_slots['3_start_index'] = start_index
+#     #     tagged_slots['4_end_index'] = end_index
+#     #
+#     #     output.append(tagged_slots)
+#     # output.append({"intent": intent})
+#
+#     return output

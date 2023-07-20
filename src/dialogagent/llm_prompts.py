@@ -3,7 +3,7 @@ import openai
 
 # openai.api_key = "*****************************************************"
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def create_lm_prompt(state, user_utterance, state_history, OOD):
