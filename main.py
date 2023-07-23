@@ -1,9 +1,9 @@
 import pickle
 
 from flask import Flask, request, jsonify
-from nlu.nlu_utils import extract_intents_slots
-from src.dialogagent.orchestrator import setup_recommendation_system, generate_recommendations
 
+# from nlu.nlu_utils import extract_intents_slots
+from src.dialogagent.orchestrator import setup_recommendation_system, generate_recommendations
 app = Flask(__name__)
 
 es_manager, dialog_agent = setup_recommendation_system()
@@ -11,13 +11,13 @@ TOTAL_TURNS = dialog_agent.total_states
 turn_ctr = 0
 
 
-@app.route("/nlu", methods=["POST", "GET"])
-def nlu():
-    query = request.args['query']
-    intent = request.args['intent']
-
-    output = extract_intents_slots(query, intent)
-    return jsonify(output)
+# @app.route("/nlu", methods=["POST", "GET"])
+# def nlu():
+#     query = request.args['query']
+#     intent = request.args['intent']
+#
+#     output = extract_intents_slots(query, intent)
+#     return jsonify(output)
 
 
 @app.route("/run_dialog_flow", methods=["POST", "GET"])
