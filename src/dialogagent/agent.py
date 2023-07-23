@@ -2,7 +2,7 @@ import pickle
 import random
 import uuid
 from dialog_agent_prompts import prompts
-from nlu.nlu_utils import extract_intents_slots, get_closest_sentence
+from nlu.nlu_utils import get_closest_sentence
 from llm_prompts import get_llm_response, generate_paraphrase
 from src.elasticsearch.elasticsearch_manager import ElasticSearchManager
 from src.elasticsearch.execute_elasticsearch import index_data
@@ -129,33 +129,33 @@ class DialogAgent:
             self.current_state_ctr += 1
             return
 
-        if state in self.required_states:
-            tagged_intents_slots = extract_intents_slots(user_msg, "lead_qualification")
-            intent = tagged_intents_slots["intent"]
-            if intent is not None and intent == "findApartmentBedBathCityPrice":
-                if "num_bedrooms" in tagged_intents_slots:
-                    tagged_entity_num_bedrooms = tagged_intents_slots["num_bedrooms"]
-                    tagged_entity_dialog_state = self.state_parameter_dicts["lq_bedrooms"]
-                    if not tagged_entity_dialog_state["_input"]:
-                        tagged_entity_dialog_state["_input"] = tagged_entity_num_bedrooms
-                        tagged_entity_dialog_state["_description"] = "RESPONSE"
-                        response_prefix_dict["lq_bedrooms"] = ("RESPONSE", tagged_entity_num_bedrooms)
-
-                if "num_bathrooms" in tagged_intents_slots:
-                    tagged_entity_num_bathrooms = tagged_intents_slots["num_bathrooms"]
-                    tagged_entity_dialog_state = self.state_parameter_dicts["lq_bathrooms"]
-                    if not tagged_entity_dialog_state["_input"]:
-                        tagged_entity_dialog_state["_input"] = tagged_entity_num_bathrooms
-                        tagged_entity_dialog_state["_description"] = "RESPONSE"
-                        response_prefix_dict["lq_bathrooms"] = ("RESPONSE", tagged_entity_num_bathrooms)
-
-                if "price" in tagged_intents_slots:
-                    tagged_entity_price = tagged_intents_slots["price"]
-                    tagged_entity_dialog_state = self.state_parameter_dicts["lq_price"]
-                    if not tagged_entity_dialog_state["_input"]:
-                        tagged_entity_dialog_state["_input"] = tagged_entity_price
-                        tagged_entity_dialog_state["_description"] = "RESPONSE"
-                        response_prefix_dict["lq_price"] = ("RESPONSE", tagged_entity_price)
+        # if state in self.required_states:
+            # tagged_intents_slots = extract_intents_slots(user_msg, "lead_qualification")
+            # intent = tagged_intents_slots["intent"]
+            # if intent is not None and intent == "findApartmentBedBathCityPrice":
+            #     if "num_bedrooms" in tagged_intents_slots:
+            #         tagged_entity_num_bedrooms = tagged_intents_slots["num_bedrooms"]
+            #         tagged_entity_dialog_state = self.state_parameter_dicts["lq_bedrooms"]
+            #         if not tagged_entity_dialog_state["_input"]:
+            #             tagged_entity_dialog_state["_input"] = tagged_entity_num_bedrooms
+            #             tagged_entity_dialog_state["_description"] = "RESPONSE"
+            #             response_prefix_dict["lq_bedrooms"] = ("RESPONSE", tagged_entity_num_bedrooms)
+            #
+            #     if "num_bathrooms" in tagged_intents_slots:
+            #         tagged_entity_num_bathrooms = tagged_intents_slots["num_bathrooms"]
+            #         tagged_entity_dialog_state = self.state_parameter_dicts["lq_bathrooms"]
+            #         if not tagged_entity_dialog_state["_input"]:
+            #             tagged_entity_dialog_state["_input"] = tagged_entity_num_bathrooms
+            #             tagged_entity_dialog_state["_description"] = "RESPONSE"
+            #             response_prefix_dict["lq_bathrooms"] = ("RESPONSE", tagged_entity_num_bathrooms)
+            #
+            #     if "price" in tagged_intents_slots:
+            #         tagged_entity_price = tagged_intents_slots["price"]
+            #         tagged_entity_dialog_state = self.state_parameter_dicts["lq_price"]
+            #         if not tagged_entity_dialog_state["_input"]:
+            #             tagged_entity_dialog_state["_input"] = tagged_entity_price
+            #             tagged_entity_dialog_state["_description"] = "RESPONSE"
+            #             response_prefix_dict["lq_price"] = ("RESPONSE", tagged_entity_price)
 
         if state in ["lq_bedrooms", "lq_bathrooms", "lq_price"]:
             tagged_entity_dialog_state = self.state_parameter_dicts[state]

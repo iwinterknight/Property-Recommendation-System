@@ -1,9 +1,7 @@
 import json
 import openai
 
-# openai.api_key = "*****************************************************"
-
-openai.api_key = "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"
+openai.api_key = "*********************************************************"
 
 
 def create_lm_prompt(state, user_utterance, state_history, OOD):
