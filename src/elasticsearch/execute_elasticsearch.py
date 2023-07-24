@@ -11,7 +11,8 @@ def index_data(es_manager, index_name):
 
 
 def search_index(es_manager, completed_dialog_state):
-    index_name = "housing_features"
+    with open("ElasticIndexName", "r") as f:
+        index_name = f.read()
     # query = form_query(attribute_form)
     query = create_elasticsearch_query(completed_dialog_state)
     res = es_manager.search_index(query, index_name)

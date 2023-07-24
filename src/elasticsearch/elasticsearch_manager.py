@@ -27,5 +27,5 @@ class ElasticSearchManager:
         print(self.es_client.cat.count(index=index_name, format="json"))
 
     def search_index(self, query, index_name):
-        res = self.es_client.search(index=index_name, query=query)
+        res = self.es_client.search(index=index_name, body={"query" : query})
         return res

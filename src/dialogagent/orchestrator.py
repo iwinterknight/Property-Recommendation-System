@@ -64,7 +64,8 @@ class DialogAgent:
             llm_dialog_state = self.state_parameter_dicts[state]
             if not llm_dialog_state["_input"]:
                 if state == "lq_price":
-                    adjusted_response = response * 10
+                    # adjusted_response = response * 10
+                    adjusted_response = response
                     llm_dialog_state["_input"] = int(adjusted_response)
                 else:
                     llm_dialog_state["_input"] = int(response)
@@ -77,9 +78,11 @@ class DialogAgent:
                 if state == "lq_price":
                     adjusted_response = {}
                     if "less_than" in response:
-                        adjusted_response["less_than"] = response["less_than"] * 10
+                        # adjusted_response["less_than"] = response["less_than"] * 10
+                        adjusted_response["less_than"] = response["less_than"]
                     if "greater_than" in response:
-                        adjusted_response["greater_than"] = response["greater_than"] * 10
+                        # adjusted_response["greater_than"] = response["greater_than"] * 10
+                        adjusted_response["greater_than"] = response["greater_than"]
                     llm_dialog_state["_input"] = adjusted_response
                 else:
                     llm_dialog_state["_input"] = response
@@ -384,30 +387,30 @@ def generate_recommendations(es_manager, dialog_state):
     return search_index(es_manager, dialog_state)
 
 
-def main():
-    es_manager = ElasticSearchManager()
-    # index_uuid = str(uuid.uuid4())
-    # index_data(es_manager, index_name=index_uuid)
-    # with open("ElasticIndexName", "w") as f:
-    #     f.write(index_uuid)
+# def main():
+#     es_manager = ElasticSearchManager()
+#     # index_uuid = str(uuid.uuid4())
+#     # index_data(es_manager, index_name=index_uuid)
+#     # with open("ElasticIndexName", "w") as f:
+#     #     f.write(index_uuid)
+#
+#     agent = DialogAgent()
+#     agent.initialize_dialog_agent()
+#     agent.start_dialogue()
+#     # completed_dialog_state = agent.run_dialog_flow()
+#
+#     with open("completed_dialog_state.pkl", "rb") as f:
+#         completed_dialog_state = pickle.load(f)
+#
+#     completed_dialog_state["lq_price"]["_input"] = {"less_than": 19000000}
+#     # completed_dialog_state["lq_sea_proximity"]["_input"] = "INLAND"
+#
+#     with open("ElasticIndexName", "r") as f:
+#         index_uuid = f.read()
+#     es_manager.setup_search_client(index_name=index_uuid)
+#     search_index(es_manager, completed_dialog_state)
+#     print("Fin!")
 
-    agent = DialogAgent()
-    agent.initialize_dialog_agent()
-    agent.start_dialogue()
-    # completed_dialog_state = agent.run_dialog_flow()
 
-    with open("completed_dialog_state.pkl", "rb") as f:
-        completed_dialog_state = pickle.load(f)
-
-    completed_dialog_state["lq_price"]["_input"] = {"less_than": 19000000}
-    # completed_dialog_state["lq_sea_proximity"]["_input"] = "INLAND"
-
-    with open("ElasticIndexName", "r") as f:
-        index_uuid = f.read()
-    es_manager.setup_search_client(index_name=index_uuid)
-    search_index(es_manager, completed_dialog_state)
-    print("Fin!")
-
-
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
