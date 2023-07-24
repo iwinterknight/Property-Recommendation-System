@@ -11,11 +11,11 @@ class ElasticSearchManager:
     def create_es_index(self, index_name, index_mapping, data_path):
         self.es_connection.create_index(index_name=index_name, mapping=index_mapping)
 
-        print(
-            json.dumps(
-                self.es_connection.es_client.indices.get_mapping(index=index_name).body,
-                indent=1)
-        )
+        # print(
+        #     json.dumps(
+        #         self.es_connection.es_client.indices.get_mapping(index=index_name).body,
+        #         indent=1)
+        # )
 
         self.es_connection.populate_index(index_name=index_name,
                                      path=data_path)
