@@ -4,6 +4,7 @@ import openai
 openai.api_key = "****************************************************"
 
 
+
 def create_lm_prompt(state, user_utterance, state_history, OOD):
     llm_prompt = None
     if state:

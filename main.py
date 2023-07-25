@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify
 
 # from nlu.nlu_utils import extract_intents_slots
 from src.dialogagent.orchestrator import setup_recommendation_system, generate_recommendations
+from nlu.nlu_utils import get_closest_sentence
 app = Flask(__name__)
 
 es_manager, dialog_agent = setup_recommendation_system()
@@ -40,6 +41,14 @@ def fetch_recommendations():
     # recommendations = generate_recommendations(es_manager, loaded_state_parameter_dicts)
     recommendations = generate_recommendations(es_manager, dialog_agent.state_parameter_dicts)
     return jsonify(recommendations)
+
+
+@app.route("/classify_intent", methods=["POST", "GET"])
+def classify_intent():
+    request_obj = request.get_json(force=True)
+    user_msg = request_obj.get("message")
+    response = get_closest_sentence(user_msg, ["housing", "music"])
+    return jsonify(response)
 
 
 if __name__ == '__main__':
