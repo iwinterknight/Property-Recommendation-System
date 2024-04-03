@@ -33,3 +33,21 @@ Socal is a house price prediction dataset comprising of house attributes and ima
 | 10       | 38833 Gorman Post Road                 | Gorman, CA                 | 129    | 3   | 2.1  | 4044  | 1350000 |
 
 Sample rows from the SoCal dataset (https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+
+# Installation
+1. Install Docker
+```
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+```
+2. Clone the repository and 
