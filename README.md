@@ -51,3 +51,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 2. Clone the repository and 
+```
+git clone https://github.com/iwinterknight/Property-Recommendation-System.git
+cd Property-Recommendation-System
+docker compose up
+```
+
