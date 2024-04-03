@@ -17,4 +17,17 @@ The captured information(slots + intents) is used to form an ElasticSearch query
 # Dataset
 # SoCal
 Socal is a house price prediction dataset comprising of house attributes and images.
-[socal2.csv](https://github.com/iwinterknight/Property-Recommendation-System/files/14857460/socal2.csv)
+
+| image_id | street                                 | citi                       | n_citi | bed | bath | sqft  | price   |
+| -------- | -------------------------------------- | -------------------------- | ------ | --- | ---- | ----- | ------- |
+| 0        | 1317 Van Buren Avenue                  | Salton City, CA            | 317    | 3   | 2    | 1560  | 201900  |
+| 1        | 124 C Street W                         | Brawley, CA                | 48     | 3   | 2    | 713   | 228500  |
+| 2        | 2304 Clark Road                        | Imperial, CA               | 152    | 3   | 1    | 800   | 273950  |
+| 3        | 755 Brawley Avenue                     | Brawley, CA                | 48     | 3   | 1    | 1082  | 350000  |
+| 4        | 2207 R Carrillo Court                  | Calexico, CA               | 55     | 4   | 3    | 2547  | 385100  |
+| 5        | 755 Brawley Avenue                     | Brawley, CA                | 48     | 3   | 1    | 1082  | 350000  |
+| 6        | 1100 CAMILIA Street                    | Calexico, CA               | 55     | 4   | 3    | 2769  | 415000  |
+| 7        | 803 Chaparral Court                    | Brawley, CA                | 48     | 5   | 2.1  | 2600  | 545000  |
+| 8        | 803 Chaparral Court                    | Brawley, CA                | 48     | 5   | 2.1  | 2600  | 545000  |
+| 9        | 2306 Lark Court                        | Salton City, CA            | 317    | 4   | 5.1  | 3932  | 690000  |
+| 10       | 38833 Gorman Post Road                 | Gorman, CA                 | 129    | 3   | 2.1  | 4044  | 1350000 |
