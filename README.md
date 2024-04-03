@@ -31,4 +31,5 @@ Socal is a house price prediction dataset comprising of house attributes and ima
 | 8        | 803 Chaparral Court                    | Brawley, CA                | 48     | 5   | 2.1  | 2600  | 545000  |
 | 9        | 2306 Lark Court                        | Salton City, CA            | 317    | 4   | 5.1  | 3932  | 690000  |
 | 10       | 38833 Gorman Post Road                 | Gorman, CA                 | 129    | 3   | 2.1  | 4044  | 1350000 |
+
 Sample rows from the SoCal dataset (https://www.kaggle.com/datasets/camnugent/california-housing-prices)
