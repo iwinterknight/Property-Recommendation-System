@@ -13,7 +13,7 @@ House details are stored in the form of ElasticSearch index hosted in a standalo
 
 The captured information(slots + intents) is used to form an ElasticSearch query to retrieve candidate listings. The client backend orchestrates the functions of the different components. It communicates with the different components via REST API calls. 
 
-# Dataset and Models
+
 # Dataset
 # SoCal
 Socal is a house price prediction dataset comprising of house attributes and images.
